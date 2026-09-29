@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+env/
+
+# Large scientific datasets
+*.nc
+*.nc4
+*.grib
+*.grib2
+
+# Generated outputs
+results/*.csv
+results/plots/*.png
+results/plots/*.jpg
+results/plots/*.pdf
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
